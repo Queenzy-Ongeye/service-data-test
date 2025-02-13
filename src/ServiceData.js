@@ -16,6 +16,7 @@ const BleServiceInterface = () => {
     lastUpdate: null,
   });
 
+  
   useEffect(() => {
     setupBridge();
   }, []);
